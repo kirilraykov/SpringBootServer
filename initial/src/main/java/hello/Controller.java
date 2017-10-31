@@ -20,6 +20,8 @@ public class Controller {
 	        return "Hello!";
 	    }
 	 
+	 //test
+	 
 	 @RequestMapping("/laptops")
 	 	public List<Laptop> getAllLaptops(){
 	 		return laptopService.getAllLaptops();
